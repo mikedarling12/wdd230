@@ -6,22 +6,42 @@
     <meta name="author" content="Michael Darling">
     <meta name="description" content="WDD 230 - Web Frontend Development - Michael Darling - course assignment portal">
     <title>Michael Darling - WDD 230 - Web Frontend Development</title>
+    <link href="styles/base.css" rel="stylesheet">
 </head>
 <body>
 
     <header>
-        <img scr="images/">
+        <img src="images/CroppedProfile.jpg" alt="Profile Picture" id="profilePic">
         <h1>Michael Darling</h1>
     </header>
+
     <nav>
-        <li href="#">Home</li>
-        <li href="chamber/siteplan.html">Site Plan</li>
-        <li href="chamber/">Chamber</li>
-        <li target="_blank" href="https://www.byui.edu">BYU-Idaho</li>
-        <li target="_blank" href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/31?lang=eng">Scripture</li>
+        <a href="#">Home</a>
+        <a href="chamber/siteplan.html">Site Plan</a>
+        <a href="chamber/">Chamber</a>
+        <a target="_blank" href="https://www.byui.edu">BYU-Idaho</a>
+        <a target="_blank" href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/31?lang=eng">Scripture</a>
     </nav>
-    <main></main>
-    <footer></footer>
+
+    <main>
+        <h2>"WDD 230: Web Frontend Development"</h2>
+        <section class="card">
+            <h3>Learning Activities</h3>
+            <ul>
+            </ul>
+        </section>
+        <section class="card">
+            <h3>Information</h3>
+            <span id="info"></span>
+        </section>
+    </main>
+
+    <footer>
+        <p>©<span id="year"></span><br>Michael Darling<br>USA</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/getdates.js"></script>
 
 </body>
 </html>
