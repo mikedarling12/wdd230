@@ -1,11 +1,66 @@
-main {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+* {
+    font-family: "Times New Roman", Times, serif;
 }
 
-#card {
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+main {
+    grid-column: 1 / 4;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+header,
+footer,
+.card {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    text-align: center;
+    background-color: aqua;
+}
+
+.card {
     max-width: 420px;
     border-radius: 1em;
     border: 3px solid lightblue;
+}
+
+header,
+footer {
+    grid-column: 1 / 4;
+}
+
+header {
+    grid-row: 1 / 2;
+}
+
+footer {
+    grid-row: 3 / 4;
+}
+
+@media screen and (max-width: 900px) {
+    main {
+        grid-column: 1 / 4;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        grid-column: 1 / 4;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
 }
