@@ -5,22 +5,23 @@
 body {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 180px 1fr 100px;
 }
 
 main {
+    justify-items: center;
     grid-column: 1 / 4;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    gap: 1rem;
 }
 
 header,
 footer,
 .card {
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin: 1em;
     border-radius: 1em;
     text-align: center;
     background-color: aqua;
@@ -30,11 +31,18 @@ footer,
     max-width: 420px;
     border-radius: 1em;
     border: 3px solid lightblue;
+    padding: 1em;
+}
+
+img {
+    max-width: 100%;
 }
 
 header,
 footer {
     grid-column: 1 / 4;
+    border: 3px solid lightblue;
+    margin: 1em;
 }
 
 header {
@@ -47,9 +55,6 @@ footer {
 
 @media screen and (max-width: 900px) {
     main {
-        grid-column: 1 / 4;
-        width: 100%;
-        display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
@@ -57,9 +62,6 @@ footer {
 
 @media screen and (max-width: 600px) {
     main {
-        grid-column: 1 / 4;
-        width: 100%;
-        display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
