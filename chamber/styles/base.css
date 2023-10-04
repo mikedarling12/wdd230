@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #FB8500;
+    --accent-color: #8ECAE6;
+    --header-font: Arvo;
+    --paragraph-font: Roboto Regular;
+}
+
+section,
+header,
+footer {
+    border: 1px solid var(--accent-color);
+    background-color: var(--primary-color);
+}
