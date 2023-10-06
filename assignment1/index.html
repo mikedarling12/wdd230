@@ -3,61 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Chamber Homepage - Michael Darling">
+    <link rel="icon" href="favicon.ico">
     <meta name="author" content="Michael Darling">
-    <meta name="description" content="WDD 230 - Web Frontend Development - Michael Darling - course assignment portal">
-    <title>Michael Darling - WDD 230 - Web Frontend Development</title>
+    <title>Tri-Cities Chamber</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link href="styles/base.css" rel="stylesheet">
-    <link rel="icon" href="favicon.ico">
-    <meta property="og:title" content="It's my website." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="images/CroppedProfile.jpg" />
-    <meta property="og:url" content="https://mikedarling12.github.io/wdd230/assignment1/" />
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <meta property="og:title" content="It's a chamber of doom.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/images/CroppedProfile.jpg">
+    <meta property="og:url" content="https://mikedarling12.github.io/wdd230/chamber/">
 </head>
 <body>
-
     <header>
-        <img src="images/CroppedProfile.jpg" alt="Profile Picture" id="profilePic">
-        <h1>Michael Darling</h1>
-    </header>
-
-    <a id="menu" href="#"></a>
-    <nav id="navigation">
-        <a href="#">Home</a>
-        <a href="chamber/siteplan.html">Site Plan</a>
-        <a href="chamber/">Chamber</a>
-        <a target="_blank" href="https://www.byui.edu">BYU-Idaho</a>
-        <a target="_blank" href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/31?lang=eng">Scripture</a>
-    </nav>
-
-    <main>
-        <h2>"WDD 230: Web Frontend Development"</h2>
-        <section class="card">
-            <h3>Learning Activities</h3>
-            <ul>
-                <li><a href="images/CSS-combiner-activity.png">CSS Combiner</a></li>
-                <li><a href="https://codepen.io/mdarl1ng/pen/PoXemNb">CodePen - Psuedo Elements</a></li>
-                <li><a href="https://codepen.io/mdarl1ng/pen/rNovwea">CodePen - Hamburger Menu</a></li>
-                <li><a href="https://codepen.io/mdarl1ng/pen/ZEVqERm">CodePen - Psuedo Classes</a></li>
-                
+        <img id="header-logo" src="/images/CroppedProfile.jpg" alt="The Logo To Be">
+        <section id="social-media-links"></section>
+        <h1>Tri-Cities Chamber of Commerce</h1>
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li>Home</li>
+                <li>Discover</li>
+                <li>Directory</li>
+                <li>Join</li>
             </ul>
+        </nav>
+    </header>
+    <main>
+        <img id="hero" src="/images/CroppedProfile.jpg" alt="Hero Image to be">
+        <section id="call-to-action">
+            <button>Join the Chamber</button>
+            <p>or, if you already have an account</p>
+            <button>Sign In</button>
         </section>
-        <section class="card">
-            <h3>Information</h3>
-            <span id="info"></span>
+        <section id="local-content">
+            <section id="current-events">
+                <h3>Events</h3>
+                <span id="events-placeholder"></span>
+            </section>
+            <section id="spotlights">
+                <h2>Member Spotlights</h2>
+                <ul id="spotlight-holder"></ul>
+            </section>
+            <section id="weather-card">
+                <h3>Weather</h3>
+                <span id="weather-placeholder"></span>
+            </section>
         </section>
-        
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44184.10872919518!2d-119.21825883519695!3d46.20037245791057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54987854e7f54da3%3A0x787d7dadae8c8ae0!2sKennewick%2C%20WA!5e0!3m2!1sen!2sus!4v1695918869545!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
     </main>
-
     <footer>
-        <p>©<span id="year"></span><br>Michael Darling<br>USA</p>
-        <p id="lastModified"></p>
+        <p>Michael Darling</p>
+        <p>WDD230 Project</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
 
-    <script src="scripts/getdates.js"></script>
-    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
 
 </body>
 </html>
