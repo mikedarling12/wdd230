@@ -24,8 +24,14 @@ header {
     padding-left: 0px;
 }
 
-nav {
+.navigation {
     display: flex;
+    flex-direction: inherit;
+    list-style: none;
+}
+
+li {
+    margin: 5px;
 }
 
 main {
@@ -33,6 +39,10 @@ main {
     grid-template-columns: 5% 30% 1fr 30% 5%;
     grid-template-rows: 1.5fr 2fr 1fr 2fr;
     background-color: var(--accent-color);
+}
+
+#menu {
+    display: none;
 }
 
 h2,
