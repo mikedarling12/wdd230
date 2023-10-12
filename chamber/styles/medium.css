@@ -1,0 +1,28 @@
+@media (max-width: 600px) {
+
+    .open li {
+        display: block;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    #menu::before {
+        content: '=';
+    }
+
+    .navigation.open {
+        display: block;
+        flex-direction: column;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    #local-content {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
