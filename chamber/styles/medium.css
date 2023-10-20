@@ -1,5 +1,9 @@
 @media (max-width: 600px) {
 
+    main {
+        grid-template-rows: 1.5fr 2fr 0.5fr 2fr;
+    }
+
     .open li {
         display: block;
     }
