@@ -85,3 +85,17 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+#weather-card {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    width: 100%;
+}
+
+#weather-placeholder {
+    border-radius: 2px;
+    border-color: var(--accent-color);
+    margin: 10%;
+}
