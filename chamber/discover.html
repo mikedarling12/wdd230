@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Chamber Homepage - Michael Darling">
+    <link rel="icon" href="favicon.ico">
+    <meta name="author" content="Michael Darling">
+    <title>Tri-Cities Chamber</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <meta property="og:title" content="It's a chamber of doom.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./images/CroppedProfile.jpg">
+    <meta property="og:url" content="https://mikedarling12.github.io/wdd230/chamber/">
+</head>
+<body>
+    <header>
+        <img id="header-logo" src="./images/CroppedProfile.webp" alt="The Logo To Be">
+        <section id="social-media-links"></section>
+        <h1>Tri-Cities Chamber of Commerce</h1>
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li>Home</li>
+                <li>Discover</li>
+                <li>Directory</li>
+                <li>Join</li>
+            </ul>
+        </nav>
+        <div id="mode">🕶️</div>
+    </header>
+    <main>
+        <section id="sidebar">
+            <div id="timesVisited">
+                <h3><span id="visitMsg"></span></h3>
+            </div>
+            <div id="calendar">
+                <h3>Local Calendar</h3>
+                <h4 id="small-msg">Calendar is more visible on larger devices.</h4>
+                <div class="month">      
+                    <ul>
+                      <li class="prev">&#10094;</li>
+                      <li class="next">&#10095;</li>
+                      <li>October<br><span style="font-size:18px">2023</span>
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <ul class="weekdays">
+                    <li>Mo</li>
+                    <li>Tu</li>
+                    <li>We</li>
+                    <li>Th</li>
+                    <li>Fr</li>
+                    <li>Sa</li>
+                    <li>Su</li>
+                  </ul>
+                  
+                  <ul class="days">  
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li>10</li>
+                    <li>11</li>
+                    <li>12</li>
+                    <li>13</li>
+                    <li>14</li>
+                    <li>15</li>
+                    <li>16</li>
+                    <li>17</li>
+                    <li>18</li>
+                    <li>19</li>
+                    <li>20</li>
+                    <li>21</li>
+                    <li>22</li>
+                    <li>23</li>
+                    <li>24</li>
+                    <li>25</li>
+                    <li>26</li>
+                    <li><span class="active">27</span></li>
+                    <li>28</li>
+                    <li>29</li>
+                    <li>30</li>
+                    <li>31</li>
+                  </ul>
+            </div>
+        </section>
+        <section id="localPics">
+            <figure id="localFigure">
+                <img src="images/tri-cities-1.webp" alt="placeholder" loading="lazy">
+                <p>Air View of the Columbia River</p>
+            </figure>
+            <figure id="localFigure">
+                <img src="images/tri-cities-2.webp" alt="placeholder" loading="lazy">
+                <p>Sunrise on Tri-Cities Bridges</p>
+            </figure>
+            <figure id="localFigure">
+                <img src="images/tri-cities-3.webp" alt="placeholder" loading="lazy">
+                <p>Local Produce</p>
+            </figure>
+            <figure id="localFigure">
+                <img src="images/tri-cities-4.webp" alt="placeholder" loading="lazy">
+                <p>Lots of Places to Walk</p>
+            </figure>
+            <figure id="localFigure">
+                <img src="images/tri-cities-5.webp" alt="placeholder" loading="lazy">
+                <p>Canyon Lakes Golf Course</p>
+            </figure>
+            <figure id="localFigure">
+                <img src="images/tri-cities-6.webp" alt="placeholder" loading="lazy">
+                <p>Hill View at Dusk</p>
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <p>Michael Darling</p>
+        <p>WDD230 Project</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+
+    <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/pageVisits.js"></script>
+
+</body>
+</html>
