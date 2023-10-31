@@ -1,0 +1,22 @@
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 10px var(--shadow);
+	border-collapse: collapse;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid black;
+    text-align: center;
+}
+
+
+tbody tr:nth-child(odd) {
+	background-color: lightgray;
+    color: white;
+}
