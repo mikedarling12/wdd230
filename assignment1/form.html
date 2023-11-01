@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Michael Darling">
+    <meta name="description" content="WDD 230 - Web Frontend Development - Michael Darling - course assignment portal">
+    <title>Michael Darling - WDD 230 - Web Frontend Development</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/form.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="It's my website." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images/CroppedProfile.jpg" />
+    <meta property="og:url" content="https://mikedarling12.github.io/wdd230/assignment1/" />
+</head>
+<body>
+
+    <header>
+        <img src="images/CroppedProfile.webp" alt="Profile Picture" id="profilePic">
+        <h1>Michael Darling</h1>
+    </header>
+
+    <a id="menu" href="#"></a>
+    <nav id="navigation">
+        <a href="#">Home</a>
+        <a href="chamber/siteplan.html">Site Plan</a>
+        <a href="chamber/">Chamber</a>
+        <a target="_blank" href="https://www.byui.edu">BYU-Idaho</a>
+        <a target="_blank" href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/31?lang=eng">Scripture</a>
+    </nav>
+
+    <main>
+        <form method="get" action="record.html">
+            <fieldset>
+                <legend>Register an Account</legend>
+                <label id="top" for="username"><br>Username*</label>
+                <input type="text" name="username" required>
+
+                <label id="top" for="password1"><br>Password*</label>
+                <input type="password" name="password1" id="password1" placeholder="1234567890" required>
+
+                <label id="top" for="password2"><br>Re-enter your password*</label>
+                <input type="password" name="password2" id="password2" required>
+
+                <label id="top" for="email"><br>Email*</label>
+                <input type="email" name="email" placeholder="example@email.com" required>
+
+                <label id="top" for="page-rating"><br>Page Rating</label>
+                <div id="rangevalue">1</div>
+                <input type="range" id="range" name="page-rating" min="1" max="10" value="1" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+
+            </fieldset>
+
+            <input class="submitBtn" type="submit" value="Register Account">
+
+        </form>
+    </main>
+
+    <footer>
+        <p>©<span id="year"></span><br>Michael Darling<br>USA</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/retypepassword.js"></script>
+
+</body>
+</html>

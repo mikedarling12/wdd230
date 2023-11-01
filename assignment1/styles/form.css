@@ -1,0 +1,37 @@
+:root {
+
+}
+
+main {
+    grid-template-rows: auto;
+}
+
+form {
+    max-width: 30%;
+    justify-self: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 50px 0 50px 0;
+}
+
+button {
+    width: 100%;
+}
+
+input {
+    width: 90%;
+}
+
+fieldset label {
+    text-align: left;
+}
+
+fieldset input {
+    margin-bottom: 30px;
+}
+
+.submitBtn {
+    width: 100%;
+}
