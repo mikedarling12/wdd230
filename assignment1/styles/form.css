@@ -1,5 +1,7 @@
 :root {
-
+    --margin-amount: 50px;
+    --form-percent-width: 90%;
+    --form-spacing: 30px;
 }
 
 main {
@@ -13,7 +15,8 @@ form {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin: 50px 0 50px 0;
+    margin-top: var(--margin-amount);
+    margin-bottom: var(--margin-amount);
 }
 
 button {
@@ -21,7 +24,7 @@ button {
 }
 
 input {
-    width: 90%;
+    width: var(--form-percent-width);
 }
 
 fieldset label {
@@ -29,7 +32,7 @@ fieldset label {
 }
 
 fieldset input {
-    margin-bottom: 30px;
+    margin-bottom: var(--form-spacing);
 }
 
 .submitBtn {
