@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Chamber Homepage - Michael Darling">
+    <link rel="icon" href="favicon.ico">
+    <meta name="author" content="Michael Darling">
+    <title>Tri-Cities Chamber</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <meta property="og:title" content="It's a chamber of doom.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./images/CroppedProfile.jpg">
+    <meta property="og:url" content="https://mikedarling12.github.io/wdd230/chamber/">
+</head>
+<body>
+    <header>
+        <img id="header-logo" src="./images/CroppedProfile.webp" alt="The Logo To Be">
+        <section id="social-media-links"></section>
+        <h1>Tri-Cities Chamber of Commerce</h1>
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li>Home</li>
+                <li>Discover</li>
+                <li>Directory</li>
+                <li>Join</li>
+            </ul>
+        </nav>
+        <div id="mode">🕶️</div>
+    </header>
+    <main>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Register an Account</legend>
+                <label id="top" for="fname"><br>First Name*</label>
+                <input type="text" name="fname" required>
+
+                <label id="top" for="lname"><br>Last Name*</label>
+                <input type="text" name="lname" required>
+
+                <label id="top" for="position"><br>Your Title/Position in Your Company</label>
+                <input type="text" name="position" id="position" minlength="7">
+
+                <label id="top" for="email"><br>Email*<br></label>
+                <input type="text" name="email" placeholder="example@email.com" required>
+
+                <label id="top" for="mobile-number"><br>Mobile Phone Number*</label>
+                <input type="text" name="mobile-number" placeholder="1234567890" required>
+
+                <label id="top" for="business-name"><br>Business/Organization Name*</label>
+                <input type="text" name="business-name" required>
+
+                <label id="top" for="membership"><br>Membership Level</label>
+                <select id="rangevalues" name="membership">
+                    <option value="np">Non-Profit Membership</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+
+                <label id="top" for="business-description"><br>Business/Organization Description</label>
+                <textarea name="business-description"></textarea>
+
+            </fieldset>
+
+            <input class="submitBtn" type="submit" value="Join the Chamber">
+
+        </form>
+
+        <section id="local-content">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="5">Membership Levels</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>Non-Profit</th>
+                        <th>Bronze</th>
+                        <th>Silver</th>
+                        <th>Gold</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Seat at the Council</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Financial Aid</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Monthly Dinner</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>A Firm Handshake</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Price</td>
+                        <td>$0</td>
+                        <td>$15/month</td>
+                        <td>$30/month</td>
+                        <td>$45/month</td>
+                    </tr>
+        
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>Michael Darling</p>
+        <p>WDD230 Project</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+
+    <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/windchill.js"></script>
+
+</body>
+</html>
