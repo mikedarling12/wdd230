@@ -36,25 +36,25 @@
         <form method="get" action="thankyou.html">
             <fieldset>
                 <legend>Register an Account</legend>
-                <label id="top" for="fname"><br>First Name*</label>
+                <label id="top" for="fname"><br>First Name*<br></label>
                 <input type="text" name="fname" required>
 
-                <label id="top" for="lname"><br>Last Name*</label>
+                <label id="top" for="lname"><br>Last Name*<br></label>
                 <input type="text" name="lname" required>
 
-                <label id="top" for="position"><br>Your Title/Position in Your Company</label>
-                <input type="text" name="position" id="position" minlength="7">
+                <label id="top" for="position"><br>Your Title/Position in Your Company<br></label>
+                <input type="text" name="position" id="position" placeholder="7+ characters, letters, hyphens, & spaces" pattern="[A-Za-z\s-]{7,}">
 
                 <label id="top" for="email"><br>Email*<br></label>
                 <input type="text" name="email" placeholder="example@email.com" required>
 
-                <label id="top" for="mobile-number"><br>Mobile Phone Number*</label>
+                <label id="top" for="mobile-number"><br>Mobile Phone Number*<br></label>
                 <input type="text" name="mobile-number" placeholder="1234567890" required>
 
-                <label id="top" for="business-name"><br>Business/Organization Name*</label>
+                <label id="top" for="business-name"><br>Business/Organization Name*<br></label>
                 <input type="text" name="business-name" required>
 
-                <label id="top" for="membership"><br>Membership Level</label>
+                <label id="top" for="membership"><br>Membership Level<br></label>
                 <select id="rangevalues" name="membership">
                     <option value="np">Non-Profit Membership</option>
                     <option value="bronze">Bronze Membership</option>
@@ -62,7 +62,7 @@
                     <option value="gold">Gold Membership</option>
                 </select>
 
-                <label id="top" for="business-description"><br>Business/Organization Description</label>
+                <label id="top" for="business-description"><br>Business/Organization Description<br></label>
                 <textarea name="business-description"></textarea>
 
             </fieldset>
