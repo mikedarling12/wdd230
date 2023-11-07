@@ -1,0 +1,23 @@
+{
+    "familyName":"Smith",
+    "moveDate":"1/1/2000",
+    "numFamilyMembers":"3",
+    "bishopricVisit":"yes",
+    "familyMembers": [
+        {
+            "name":"Joe Smith",
+            "gender":"Male",
+            "birthdate":"1/1/1978"
+        },
+        {
+            "name":"Jane Smith",
+            "gender":"Female",
+            "birthdate":"1/1/1975"
+        },
+        {
+            "name":"Joe Smith Jr.",
+            "gender":"Male",
+            "birthdate":"1/1/1999"
+        }
+    ]
+}
