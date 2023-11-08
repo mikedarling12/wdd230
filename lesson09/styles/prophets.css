@@ -1,0 +1,12 @@
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
+
+#cards section {
+    outline-style: double;
+    outline-color: black;
+    outline-width: 2px;
+    margin: 5px;
+    align-content: center;
+}
