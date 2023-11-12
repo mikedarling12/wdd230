@@ -1,0 +1,60 @@
+{
+    "companies": [
+        {
+            "name":"Walmart",
+            "address":"2720 S Quillan St, Kennewick, WA 99337",
+            "phoneNumber":"+15095861554",
+            "websiteURL":"https://www.walmart.com/store/2101-kennewick-wa",
+            "image":"https://lh5.googleusercontent.com/p/AF1QipNTZ3TCXDNd-8wJjpP9PdIEAaGpOtsYnuZiwSg1=w408-h318-k-no",
+            "membership-level":""
+        },
+        {
+            "name":"McDonalds",
+            "address":"2700 S Quillan St, Kennewick, WA 99337",
+            "phoneNumber":"+15095851104",
+            "websiteURL":"https://www.mcdonalds.com/us/en-us/location/WA/KENNEWICK/2700-S-QUILLAN/20085.html?cid=RF:YXT:GMB::Clicks",
+            "image":"https://lh5.googleusercontent.com/p/AF1QipPcb0lJBnSMcFkB1CNQ64liIXRzaYV6APdfPt85=w426-h240-k-no",
+            "membership-level":""
+        },
+        {
+            "name":"Burger King",
+            "address":"2703 S Quillan St, Kennewick, WA 99337",
+            "phoneNumber":"+15095869726",
+            "websiteURL":"https://burgerking.com/store-locator/store/restaurant_8501",
+            "image":"https://lh5.googleusercontent.com/p/AF1QipN-f8yXq4Rd6aCd0JiLeTSix2Xp1AR7OueDJYvx=w420-h240-k-no",
+            "membership-level":""
+        },
+        {
+            "name":"Home Depot",
+            "address":"3910 W 27th Ave, Kennewick, WA 99337",
+            "phoneNumber":"+15095826697",
+            "websiteURL":"https://www.homedepot.com/l/E-Kennewick/WA/Kennewick/99337/4739",
+            "image":"https://lh5.googleusercontent.com/p/AF1QipMSrqavZBGAl3DT5Y4Upbgu27BfLpEmD8_nvhLN=w408-h306-k-no",
+            "membership-level":""
+        },
+        {
+            "name":"Petco",
+            "address":"4012 W 27th Ave, Kennewick, WA 99337",
+            "phoneNumber":"+15095824128",
+            "websiteURL":"https://stores.petco.com/wa/kennewick/pet-supplies-kennewick-wa-1231.html",
+            "image":"https://lh5.googleusercontent.com/p/AF1QipMkvFUwH8kIkpWhevscrxVb5LIS9DkUv9Ty8VIX=w408-h306-k-no",
+            "membership-level":""
+        },
+        {
+            "name":"Walgreens",
+            "address":"4000 W 27th Ave, Kennewick, WA 99337",
+            "phoneNumber":"+15095827781",
+            "websiteURL":"https://www.walgreens.com/locator/walgreens-4000+w+27th+ave-kennewick-wa-99337/id=9113",
+            "image":"https://lh5.googleusercontent.com/p/AF1QipOCfeLnd3xTq1QWVL2kNeEJSQr0-wK5YwfKsFkj=w426-h240-k-no",
+            "membership-level":""
+        },
+        {
+            "name":"GameStop",
+            "address":"4008 W 27th Ave, Kennewick, WA 99337",
+            "phoneNumber":"+15095850790",
+            "websiteURL":"https://www.gamestop.com/store/us/wa/kennewick/5600/canyoon-lakes-center-gamestop?utm_source=gmblisting&utm_medium=organic",
+            "image":"https://lh5.googleusercontent.com/p/AF1QipOfO256BeDCb9eZq7zQpTY2f9Gt95JIEtcQG33u=w426-h240-k-no",
+            "membership-level":""
+        }
+    ]
+}

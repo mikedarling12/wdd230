@@ -291,3 +291,25 @@ tbody tr:nth-child(odd) {
 	background-color: var(--accent-color);
     color: white;
 }
+
+#cards {
+    grid-column: 3 / 4;
+    display: flex;
+    flex-direction: column;
+}
+
+#company {
+    display: grid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+
+#company img {
+    margin: auto;
+    align-self: center;
+}
+
+#company p {
+    margin: 5px;
+}
