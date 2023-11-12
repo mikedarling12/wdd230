@@ -313,3 +313,10 @@ tbody tr:nth-child(odd) {
 #company p {
     margin: 5px;
 }
+
+#display { 
+    grid-column: 2 / 3;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
