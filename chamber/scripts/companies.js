@@ -21,11 +21,17 @@ function displayCompanies(data) {
         portrait.setAttribute('src', company.image);
         portrait.setAttribute('loading', 'lazy');
         portrait.setAttribute('width', '340');
+        portrait.setAttribute("id", "listDisabled");
         companyName.textContent = `${company.name}`;
+        companyName.setAttribute("id", "listEnabled");
         companyAddress.textContent = `${company.address}`;
+        companyAddress.setAttribute("id", "listEnabled");
         companyPhone.textContent = `${company.phoneNumber}`;
+        companyPhone.setAttribute("id", "listDisabled");
         companyWebsite.textContent = `${company.websiteURL}`;
+        companyWebsite.setAttribute("id", "listDisabled");
         membershipLevel.textContent = `Membership Level: ${company.membership}`;
+        membershipLevel.setAttribute("id", "listDisabled");
         
         card.appendChild(portrait);
         card.appendChild(companyName);
@@ -45,14 +51,21 @@ const listbutton = document.querySelector("#list");
 const display = document.querySelector("#cards");
 
 gridbutton.addEventListener("click", () => {
-	// example using arrow function
-	display.classList.add("grid");
-	display.classList.remove("list");
+    console.log("Grid Button");
+    var cardElements = document.querySelectorAll("#listDisabled");
+    cardElements.forEach( (cardElement) => {
+        cardElement.style.display = "inline";
+    });
+    document.getElementById("cards").style.gridColumn = "3 / 4";
 });
 
 listbutton.addEventListener("click", () => {
-	display.classList.add("list");
-	display.classList.remove("grid");
+    console.log("List Button");
+    var cardElements = document.querySelectorAll("#listDisabled");
+    cardElements.forEach( (cardElement) => {
+        cardElement.style.display = "none";
+    });
+    document.getElementById("cards").style.gridColumn = "3 / 5";
 });
 
 getCompanyData();
