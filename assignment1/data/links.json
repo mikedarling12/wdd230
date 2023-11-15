@@ -98,7 +98,12 @@
         },
         {
             "lesson": "10",
-            "links": []
+            "links": [
+              {
+                "url":"https://mikedarling12.github.io/wdd230/lesson10/weather.html",
+                "title":"API Weather"
+              }
+            ]
         }
     ]
 }
