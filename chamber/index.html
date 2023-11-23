@@ -25,10 +25,10 @@
         <nav>
             <button id="menu"></button>
             <ul class="navigation">
-                <li>Home</li>
-                <li>Discover</li>
-                <li>Directory</li>
-                <li>Join</li>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
             </ul>
         </nav>
         <div id="mode">🕶️</div>
@@ -50,18 +50,20 @@
             </picture>
         </div>
         <section id="call-to-action">
-            <button>Join the Chamber</button>
+            <a href="join.html"><button>Join the Chamber</button></a>
             <p>or, if you already have an account</p>
             <button>Sign In</button>
         </section>
         <section id="local-content">
             <section id="current-events">
                 <h3>Events</h3>
-                <span id="events-placeholder"></span>
+                <span id="events-placeholder">
+                    <h4>To Be Announced</h4>
+                </span>
             </section>
             <section id="spotlights">
                 <h2>Member Spotlights</h2>
-                <ul id="spotlight-holder"></ul>
+                <ul id="spotlight-placeholder"></ul>
             </section>
             <section id="weather-card">
                 <h3>Weather</h3>
@@ -92,6 +94,7 @@
     <!--<script src="scripts/windchill.js"></script>-->
     <script src="scripts/weather.js"></script>
     <script src="scripts/banner.js"></script>
+    <script src="scripts/memberSpotlight.js"></script>
 
 </body>
 </html>
