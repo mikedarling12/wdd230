@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    width: 60%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 2%;
+    list-style: none;
+}
+
+.fa:hover { 
+    opacity: 0.9; 
+} 
+
+.fa-facebook { 
+    background: #007bb5; 
+    color: white; 
+}
+
+.fa { 
+    padding: 20px; 
+    font-size: 40px; 
+    width: 60px; 
+    text-decoration: none; 
+    margin: 5px 80px; 
+}
