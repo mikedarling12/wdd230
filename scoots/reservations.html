@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservations | Scoots</title>
+    <link href="styles/base.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -16,7 +17,9 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <section id="social-media"></section>
+        <section id="social-media">
+            <a href="facebook.com" class="fa fa-facebook">Visit our Facebook Page!</a>
+        </section>
     </header>
     <main>
         <section id="rental-agreements">
@@ -34,10 +37,35 @@
                 <li>Rentals may be returned to either physical location.</li>
             </ul>
         </section>
-        <section id="rental-form"></section>
+        <section id="rental-form">
+            <form action="">
+                <label for="date">Date of Rental:</label><br>
+                <input type="text" id="date" name="date"><br>
+                <label for="rent-type">Rental Type:</label><br>
+                <input type="text" id="rent-type" name="rent-type"><br>
+                <label for="num-users">Number of Participants:</label><br>
+                <input type="text" id="num-users" name="num-users"><br>
+                <label for="phone">Phone Number:</label><br>
+                <input type="text" id="phone" name="phone"><br>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="home">Home State/Contry:</label><br>
+                <input type="text" id="home" name="home"><br>
+                <label for="cruise">Cruise Line (if applicable):</label><br>
+                <input type="text" id="cruise" name="cruise"><br>
+                <label for="comments">Additional Comments:</label><br>
+                <input type="text" id="comments" name="comments"><br>
+            </form>
+        </section>
     </main>
     <footer>
-        <h3 id="footer-contact-info"></h3>
+        <section id="footer-contact-info">
+            <h2>Contact Us</h2>
+            <h3>Email: contact@example.com</h3>
+            <h3>Phone #: (123) 456-7890</h3>
+        </section>
     </footer>
 
     <!-- 
