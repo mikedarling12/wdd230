@@ -1,46 +1,42 @@
 {
-    "makes" : [
+    "Honda Motor Scooters": [
         {
-            "Honda Motor Scooters": [
+            "Honda Metropolitan (49cc)": [
                 {
-                    "Honda Metropolitan (49cc)": [
-                        {
-                            "people": 1
-                        }
-                    ],
-                    "Honda Dio (110cc)": [
-                        {
-                            "people": 2
-                        }
-                    ],
-                    "Honda PCX150 (149cc)": [
-                        {
-                            "people": 2
-                        }
-                    ]
+                    "people": 1
                 }
             ],
-            "Side-by-Side ATVs": [
+            "Honda Dio (110cc)": [
                 {
-                    "Honda Pioneer 1000": [
-                        {
-                            "people": 4
-                        }
-                    ]
+                    "people": 2
                 }
             ],
-            "Jeeps": [
+            "Honda PCX150 (149cc)": [
                 {
-                    "Jeep Wrangler - 4 door manuel with A/C": [
-                        {
-                            "people": 5
-                        }
-                    ],
-                    "Jeep Wrangler - 2 door - open air - manuel": [
-                        {
-                            "people": 4
-                        }
-                    ]
+                    "people": 2
+                }
+            ]
+        }
+    ],
+    "Side-by-Side ATVs": [
+        {
+            "Honda Pioneer 1000": [
+                {
+                    "people": 4
+                }
+            ]
+        }
+    ],
+    "Jeeps": [
+        {
+            "Jeep Wrangler - 4 door manuel with A/C": [
+                {
+                    "people": 5
+                }
+            ],
+            "Jeep Wrangler - 2 door - open air - manuel": [
+                {
+                    "people": 4
                 }
             ]
         }
