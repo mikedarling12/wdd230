@@ -10,6 +10,8 @@ async function getRentalData() {
 
 function displayRentalData(data) {
     console.log(data);
+    console.log(typeof(data));
+    console.log(JSON.parse(data));
     let rentalOptions = document.getElementById("table-additions");
     data.forEach( (make) => {
         make.forEach( (model) => {
