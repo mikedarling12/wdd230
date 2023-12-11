@@ -1,41 +1,38 @@
 {
-    "Honda":
-    {
-        "Honda Metropolitan (49cc)":
+    "Honda": [
         {
             "make": "Honda Motor Scooters",
+            "model":"Honda Metropolitan (49cc)",
             "people": 1
         },
-        "Honda Dio (110cc)":
         {
             "make": "Honda Motor Scooters",
+            "model": "Honda Dio (110cc)",
             "people": 2
         },
-        "Honda PCX150 (149cc)":
         {
             "make": "Honda Motor Scooters",
+            "model": "Honda PCX150 (149cc)",
             "people": 2
         }
-    },
-    "ATVs":
-    {
-        "Honda Pioneer 1000":
+    ],
+    "ATVs": [
         {
             "make": "Side-by-Side ATVs",
+            "model": "Honda Pioneer 1000",
             "people": 4
         }
-    },
-    "Jeeps":
-    {
-        "Jeep Wrangler - 4 door manuel with A/C":
+    ],
+    "Jeeps": [
         {
             "make": "Jeep",
+            "model": "Jeep Wrangler - 4 door manuel with A/C",
             "people": 5
         },
-        "Jeep Wrangler - 2 door - open air - manuel":
         {
             "make": "Jeep",
+            "model": "Jeep Wrangler - 2 door - open air - manuel",
             "people": 4
         }
-    }
+    ]
 }
