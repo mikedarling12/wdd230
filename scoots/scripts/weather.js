@@ -1,5 +1,4 @@
 const weatherInfo = document.querySelector('#weather-card');
-//const weatherIcon = document.querySelector('#weather-icon');
 
 const url = 'https://api.openweathermap.org/data/2.5/weather?lat=20.51160596197596&lon=-86.95003565940613&appid=8027ee3a3fb6d53b5a149d9df215a859';
 
