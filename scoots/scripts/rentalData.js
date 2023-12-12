@@ -12,25 +12,59 @@ function displayRentalData(data) {
     console.log(data);
     console.log(data["Honda"]);
     let rentalOptions = document.getElementById("table-additions");
-    data["Honda"].forEach( (make) => {
-        make.forEach( (model) => {
-            console.log(make + " " + model)
-            let row = document.createElement('tr');
+    data["Honda"].forEach( (rental) => {
+        console.log(rental.make + " " + rental.model)
+        let row = document.createElement('tr');
 
-            let makeCell = document.createElement('td');
-            makeCell.innerHTML = make;
-            
-            let modelCell = document.createElement('td');
-            modelCell.innerHTML = model;
-            
-            let numPersonsCell = document.createElement('td');
-            numPersonsCell.innerHTML = 1;
+        let makeCell = document.createElement('td');
+        makeCell.innerHTML = rental.make;
+        
+        let modelCell = document.createElement('td');
+        modelCell.innerHTML = rental.model;
+        
+        let numPersonsCell = document.createElement('td');
+        numPersonsCell.innerHTML = rental.people;
 
-            row.appendChild(makeCell);
-            row.appendChild(modelCell);
-            row.appendChild(numPersonsCell);
-            rentalOptions.appendChild(row);
-        });
+        row.appendChild(makeCell);
+        row.appendChild(modelCell);
+        row.appendChild(numPersonsCell);
+        rentalOptions.appendChild(row);
+    });
+    data["ATVs"].forEach( (rental) => {
+        console.log(rental.make + " " + rental.model)
+        let row = document.createElement('tr');
+
+        let makeCell = document.createElement('td');
+        makeCell.innerHTML = rental.make;
+        
+        let modelCell = document.createElement('td');
+        modelCell.innerHTML = rental.model;
+        
+        let numPersonsCell = document.createElement('td');
+        numPersonsCell.innerHTML = rental.people;
+
+        row.appendChild(makeCell);
+        row.appendChild(modelCell);
+        row.appendChild(numPersonsCell);
+        rentalOptions.appendChild(row);
+    });
+    data["Jeeps"].forEach( (rental) => {
+        console.log(rental.make + " " + rental.model)
+        let row = document.createElement('tr');
+
+        let makeCell = document.createElement('td');
+        makeCell.innerHTML = rental.make;
+        
+        let modelCell = document.createElement('td');
+        modelCell.innerHTML = rental.model;
+        
+        let numPersonsCell = document.createElement('td');
+        numPersonsCell.innerHTML = rental.people;
+
+        row.appendChild(makeCell);
+        row.appendChild(modelCell);
+        row.appendChild(numPersonsCell);
+        rentalOptions.appendChild(row);
     });
 }
 
