@@ -1,0 +1,12 @@
+@media (max-width: 600px) {
+    .fa {
+        padding: 0px;
+        font-size: 1em;
+        width: 60px;
+        text-decoration: none;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+}

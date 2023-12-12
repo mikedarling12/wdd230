@@ -96,3 +96,12 @@ input[type=submit] {
     margin: 8px 0;
     box-sizing: border-box;
 }
+
+#map {
+    max-width: 100%;
+}
+
+#map iframe {
+    max-width: 100%;
+    max-height: auto;
+}
