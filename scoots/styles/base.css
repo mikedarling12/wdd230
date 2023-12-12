@@ -1,21 +1,41 @@
-header {
+header,
+footer {
     display: flex;
     flex-direction: row;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0%;
 }
 
 nav {
-    width: 60%;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 nav ul {
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 
 nav ul li {
-    margin-left: 2%;
+    margin-left: 1rem;
+    margin-right: 1rem;
     list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
 }
 
 .fa:hover { 
@@ -31,6 +51,48 @@ nav ul li {
     padding: 20px; 
     font-size: 2em; 
     width: 60px; 
-    text-decoration: none; 
-    margin: 5px 80px; 
+    text-decoration: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    background-color: aquamarine;
+}
+
+main section {
+    display: grid;
+    grid-column: 2 / 3;
+    background-color: white;
+    justify-content: center;
+    justify-items: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+}
+
+form {
+    width: 80%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
 }

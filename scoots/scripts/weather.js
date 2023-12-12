@@ -18,10 +18,11 @@ async function apiFetch() {
 }
 
 function displayResults(data) {
+    var sectionTitle = "<h3>Local Weather</h3>";
     var currentTemp = `${data.main.temp}&deg;F`;
     var weatherDesc = data.weather[0].description;
     var humidity = data.main.humidity;
-    weatherInfo.innerHTML = "<p>" + currentTemp + " - " + weatherDesc + "</p><p>Humidity: " + humidity + "</p>";
+    weatherInfo.innerHTML = sectionTitle + "<p>" + currentTemp + " - " + weatherDesc + "</p><p>Humidity: " + humidity + "</p>";
 }
 
 apiFetch();
