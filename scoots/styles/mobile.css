@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     .fa {
         padding: 0px;
         font-size: 1em;
@@ -8,5 +8,22 @@
 
     nav ul {
         flex-direction: column;
+    }
+
+    #main-img {
+        display: none;
+    }
+
+    #form-img {
+        display: none;
+    }
+
+    #rental-imgs {
+        flex-direction: column;
+    }
+
+    #rental-imgs img {
+        width: 100%;
+        height: auto;
     }
 }

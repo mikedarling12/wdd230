@@ -56,8 +56,7 @@ nav ul li a {
 
 main {
     display: grid;
-    grid-template-columns: 10% 1fr 10%;
-    background-color: aquamarine;
+    grid-template-columns: 5% 1fr 5%;
 }
 
 main section {
@@ -68,6 +67,7 @@ main section {
     justify-items: center;
     margin: 1rem;
     padding: 1rem;
+    opacity: 0.8;
 }
 
 table, th, td {
@@ -104,4 +104,49 @@ input[type=submit] {
 #map iframe {
     max-width: 100%;
     max-height: auto;
+}
+
+img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    grid-column: 1 / 4;
+    z-index: -1;
+}
+
+#form-img {
+    position: relative;
+    float: right;
+    left: auto;
+    right: auto;
+}
+
+#rental-imgs {
+    display: flex;
+    flex-direction: row;
+}
+
+#rental-imgs img {
+    position: inherit;
+    height: 220px;
+    width: auto;
+    margin: 1%;
+}
+
+#rental-form {
+    justify-content: left;
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+}
+
+#rental-form form {
+    margin-left: 40px;
+}
+
+#form-img {
+    margin: 40px;
+    width: 100%;
+    height: auto;
 }
