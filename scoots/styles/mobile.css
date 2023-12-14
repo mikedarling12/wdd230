@@ -1,7 +1,17 @@
 @media (max-width: 750px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
     .fa {
         padding: 0px;
-        font-size: 1em;
         width: 60px;
         text-decoration: none;
     }
@@ -25,5 +35,35 @@
     #rental-imgs img {
         width: 100%;
         height: auto;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    #menu::before {
+        content: '=';
+    }
+
+    #navigation.open {
+        display: block;
+        flex-direction: column;
+    }
+
+    #navigation {
+        display: none;
+    }
+
+    main {
+        background-color: #003D29;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    main section {
+        opacity: 1;
+        background-color: white;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 }
