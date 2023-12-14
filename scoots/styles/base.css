@@ -38,16 +38,13 @@ nav ul li a {
     text-decoration: none;
 }
 
-.fa:hover { 
+.facebook:hover { 
     opacity: 0.9; 
 } 
 
-.fa-facebook { 
+.facebook { 
     background: #007bb5; 
     color: white; 
-}
-
-.fa { 
     padding: 20px; 
     font-size: 2em; 
     width: 60px; 
